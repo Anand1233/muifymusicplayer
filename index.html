@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Musify</title>
+</head>
+<body>
+    <nav>
+      <ul>
+         <li class="brand"> <img  class="brand" src="/assets/logo/android-chrome-512x512.png" alt="error">Musify</li>
+         <li>  Home</li>
+         <li class="about"><a href="http://127.0.0.1:5500/mywebpage/index.html" target="_blank" style="text-decoration: none ;color:white ;">  About </a></li>
+          <a class="login" href="#" >Login/Sinup</a>
+       </ul>
+    </nav>
+   <div class="container">
+      
+      <div class="songContainer">
+        <div class="songList">
+            <div class="songItem">
+               <img src="/assets/song/song1/img-1.jpg" alt="">
+               <span class="songName">wait for a while</span> 
+               <!-- <audio controls  src="/spotify/assets/song/song1/Har Har Shambhu.mp4"></audio> -->
+               <span class="songlistPlay">
+                  <span class="timestamp"><i id="1" class="songItemPlay fa fa-play-circle"></i></span>
+               </span>
+           </div>
+           <div class="songItem">
+            <img src="/assets/song/song3/images-2.jpg" alt="">
+            <span class="songName">wait for a while</span>
+            <!-- <audio controls loop  src="/spotify/assets/song/song2/Jingle Bells Songs for Children.mp4"></audio> -->
+            <span class="songlistPlay">
+               <span class="timestamp"><i id="2" class="songItemPlay fa fa-play-circle"></i></span>
+            </span>
+        </div>
+        <div class="songItem">
+         <audio src="/assets/song/song4/atif aslam.mp4"></audio>
+         <img  src="/assets/song/song2/images-2.jpg" alt="">
+         <span class="songName">wait for comlete the project</span>
+         <!-- <audio src="/spotify/assets/song/song3/y2mate.com - Kali Kali Zulfon Ke  Madhur Sharma  Ustad Nusrat Fateh Ali Khan  Na Chedo Hume Hum Sataye Hue hai.mp3"></audio> -->
+         <span class="songlistPlay">
+            <span class="timestamp"><i id="3" class="songItemPlay fa fa-play-circle"></i></span>
+         </span>
+     </div>
+     
+     <div class="songItem">
+      <img src="/assets/song/song1/img-1.jpg" alt="">
+      <span class="songName">wait for completion</span>
+      <audio src="/assets/song/song4/atif aslam.mp4"></audio>
+      <span class="songlistPlay">
+         <span class="timestamp"><i id="4" class="songItemPlay fa fa-play-circle"></i></span>
+      </span>
+  </div>
+  <div class="songItem">
+   <img src="/assets/song/song3/images-2.jpg" alt="">
+   <span class="songName">wait for completion</span>
+   <span class="songlistPlay">
+      <span class="timestamp"><i id="5" class="songItemPlay fa fa-play-circle"></i></span>
+   </span>
+</div>
+<div class="songItem">
+   <img src="/assets/song/song1/img-1.jpg" alt="">
+   <span class="songName">wait for completion</span>
+   <span class="songlistPlay">
+      <span class="timestamp"><i id="6" class="songItemPlay fa fa-play-circle"></i></span>
+   </span>
+</div>
+<div class="songItem">
+   <img src="/assets/song/song3/images-2.jpg" alt="">
+  
+   <span class="songName">work on progress   </span>
+   <span class="songlistPlay">
+      <span class="timestamp"><i id="7" class="songItemPlay fa fa-play-circle"></i></span>
+   </span>
+</div>
+<div class="songItem">
+   <img src="/assets/song/song3/images-2.jpg" alt="">
+   <audio src="/assets/song/4.mp4"></audio>
+  
+   <span class="songName">   </span>
+   <span class="songlistPlay">
+      <span class="timestamp"><i id="8" class="songItemPlay fa fa-play-circle"></i></span>
+   </span>
+</div>
+<div class="songItem">
+   <img src="/assets/song/song3/images-2.jpg" alt="">
+  
+   <span class="songName">   </span>
+   <span class="songlistPlay">
+      <span class="timestamp"><i id="9" class="songItemPlay fa fa-play-circle"></i></span>
+   </span>
+</div>
+
+
+
+        </div>
+      </div> 
+   </div>
+  <div class="bottom">
+  
+   <input type="range" id="myProgressBar" min="0" value="0" max="100" >
+    <div class="icons">
+      <!-- <- fontawesome icons  -> -->
+      
+      <i class="fa fa-3x fa-step-backward" id="previous"></i>
+      <i class="fa fa-3x fa-circle-play" id="masterPlay"></i>
+      <i class=" fa  fa-3x fa-step-forward" id="next"></i>
+    </div>
+    <div id="vol">
+    <input  type="range" min="0">
+   </div>
+    <div class="songInfo">
+      <img src="/assets/bottom/playing_2.gif" class="get" width="42px" id="gif">
+      <span id="masterSongName">wariyo</span> 
+    </div>
+    
+      
+    
+   </div>
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/a8820d4169.js" crossorigin="anonymous"></script>
+</body>
+</html>
